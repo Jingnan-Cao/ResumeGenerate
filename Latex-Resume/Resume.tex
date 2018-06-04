@@ -1,0 +1,94 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+\documentclass{resume} % Use the custom resume.cls style
+\usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Jingnan(Jane)   Cao} % Your name
+\address{(+1)951-756-6291 \\ jingnan.cao@email.ucr.edu  \\ 534 Palo Verde Common, Fremont, CA 94539} 
+\begin{document}
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Education}
+%------------------------------------
+{\bf University of California, Riverside} \hfill {09/2016 - 12/2017}\\ 
+{\bf MS.} in {\bf Computer Engineering} - GPA: 3.64/4.00
+\hfill { Riverside, CA}\\
+\underline{Relevant Course}: HPC, GPU and Parallel Program, Info Retrieval \& Web Search, DB Management Systems, Design \& Analysis of Algorithms, Network Routing, Advanced Computer Networks, Computer Graphics\\
+\\
+ %------------------------------------
+{\bf Beijing University of Posts and Telecommunications} \hfill {09/2011 - 07/2015}\\ 
+{\bf BEng.} in {\bf Computer Science \& Technology} - Major GPA: 3.58/4.00
+\hfill {Beijing, China}
+ %------------------------------------
+\end{rSection}
+%----------------------------------------------------------------------------------------
+%	TECHNICAL SKILLS SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{TECHNICAL SKILLS}
+ %------------------------------------
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Programming Languages &  Java, C/C++, Python, JSP, HTML, JS, PHP, SQL, MATLAB\\ 
+Libraries/Frameworks &  Structs2, Spring, Hibernate, CUDA, OpenMPI, Lucene, Hadoop, OpenGL
+\end{tabular}
+ %------------------------------------
+\end{rSection}
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{WORK EXPERIENCES}
+%------------------------------------
+\begin{rSubsection}{Software Engineer – Intern    @    Yunnan Yajin Technologies Ltd. }{07/2013 - 08/2013} {} {} 
+\item Developed application of Hospital Clinical Information System with back-end {\bf C++} and GUI {\bf Qt}. 
+\item Assisted in the {\bf MySQL} databases maintenance.
+\end{rSubsection}
+%------------------------------------------------
+\begin{rSubsection}{Research Engineer    @    Kunming University of Science and Technology}{ 01/2013 - 02/2013}{Applied Mathematics Lab, instructed by Prof. Yiping Lin } {}
+ \item Developed a simulator to dynamically adjust experimental parameters by {\bf C}.
+ \item Calculated data and generated figures by mainly {\bf MATLAB} and some auxiliary programs.
+\end{rSubsection}
+ %------------------------------------
+\end{rSection}
+%----------------------------------------------------------------------------------------
+\begin{rSection}{PROJECTS}
+ %------------------------------------
+\begin{rSubsection}{R-tree Indexes Spatial Database}{05/2017 - 06/2017}{}{}
+\item Developed a system to build {\bf R-tree} indexes on locations and trajectories datasets by {\bf Scala}.
+\item Filtered data and implemented spatial queries of traffic by {\bf Simba} framework.
+\item Used {\bf Hadoop} {\bf MapReduce} to calculate and sort query results. 
+\end{rSubsection}
+ %------------------------------------
+\begin{rSubsection}{3D Render Pipeline \& Ray Tracer}{01/2017 - 02/2017}{}{} 
+\item Implemented a 3D rendering pipeline by {\bf C++} under {\bf Linux}, including vertex and viewing transformations, rasterization, interpolation, clipping and using a z-buffer for hidden surface. Verified correctness by {\bf OpenGL}. 
+\item Developed a ray tracer by {\bf C++} under {\bf Linux}, including ray generation, ray intersection, shading and reflection.
+\end{rSubsection} 
+ %------------------------------------
+\begin{rSubsection}{Depixelizing Pixel Art}{02/2017 - 03/2017}{}{} 
+\item Generated similarity network of pixel by {\bf Python}. Connected similar color pixels with a smooth edge by \emph{networkx}. 
+\item Resolved the crossing edges by designed heuristics and reshaped pixel cells, then extracted spline curves. 
+\item Rendered vector image output by \emph{svgwrite}.
+\end{rSubsection} 
+%------------------------------------------------
+\end{rSection} 
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{PUBLICATIONS} 
+%------------------------------------------------
+\begin{rSubsection}{Global Hopf Bifurcation on Two-Delays Leslie-Gower Predator-Prey System with a Prey Refuge}{} {} {} 
+\item In Computational and Mathematical Methods in Medicine, Volume 2014 (2014), Article ID 619132 
+\end{rSubsection}
+%------------------------------------------------
+\begin{rSubsection}{Chaos and Hopf Bifurcation Analysis of the Delayed Local Lengyel-Epstein System}{} {} {} 
+\item In
+Discrete Dynamics in Nature and Society, Volume 2014 (2014), Article ID 139375
+\end{rSubsection}
+%------------------------------------------------
+\end{rSection}
+%------------------------------------------------
+\end{document}

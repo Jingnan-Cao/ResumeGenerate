@@ -1,0 +1,95 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+\documentclass{resume} % Use the custom resume.cls style
+\usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Jingnan(Jane) Cao} % Your name
+\address{(+1)951-756-6291 \\ jingnan.cao@email.ucr.edu  \\ 534 Palo Verde Common, Fremont, CA 94539} 
+\begin{document}
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Education}
+%------------------------------------
+{\bf University of California, Riverside} \hfill {09/2016 - 12/2017}\\ 
+{\bf MS.} in {\bf Computer Engineering} - GPA: 3.64/4.00
+\hfill { Riverside, CA}\\
+\underline{Relevant Course}: HPC, GPU and Parallel Program, Info Retrieval \& Web Search, DB Management Systems, Design \& Analysis of Algorithms, Network Routing, Advanced Computer Networks, Computer Graphics\\
+\\
+ %------------------------------------
+{\bf Beijing University of Posts and Telecommunications} \hfill {09/2011 - 07/2015}\\ 
+{\bf BEng.} in {\bf Computer Science \& Technology} - Major GPA: 3.58/4.00
+\hfill {Beijing, China}
+ %------------------------------------
+\end{rSection}
+%----------------------------------------------------------------------------------------
+%	TECHNICAL SKILLS SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{TECHNICAL SKILLS}
+ %------------------------------------
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Programming Languages &  Java, C/C++, Python, JSP, HTML, JS, PHP, SQL, MATLAB\\ 
+Libraries/Frameworks &  Structs2, Spring, Hibernate, CUDA, OpenMPI, Lucene, Hadoop, OpenGL
+\end{tabular}
+ %------------------------------------
+\end{rSection}
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{WORK EXPERIENCES}
+%------------------------------------
+\begin{rSubsection}{Software Engineer – Intern    @    Yunnan Yajin Technologies Ltd. }{07/2013 - 08/2013} {} {} 
+\item Developed application of Hospital Clinical Information System with back-end {\bf C++} and GUI {\bf Qt}. 
+\item Assisted in the {\bf MySQL} databases maintenance.
+\end{rSubsection}
+%------------------------------------------------
+\begin{rSubsection}{Research Engineer    @    Kunming University of Science and Technology}{ 01/2013 - 02/2013}{Applied Mathematics Lab, instructed by Prof. Yiping Lin } {}
+ \item Developed a simulator to dynamically adjust experimental parameters by {\bf C}.
+ \item Calculated data and generated figures by mainly {\bf MATLAB} and some auxiliary programs.
+\end{rSubsection}
+ %------------------------------------
+\end{rSection}
+%----------------------------------------------------------------------------------------
+\begin{rSection}{PROJECTS}
+ %------------------------------------
+\begin{rSubsection}{Online Teaching Video Management System}{02/2015 - 07/2015}{}{}
+\item Developed a {\bf J2EE} web applications managing 3TB+ videos. Deployed it on {\bf Tomcat} and used {\bf MySQL} database.
+\item Designed function modules in {\bf MVC} pattern. Implemented back-end using {\bf Struts2}, {\bf Spring} and {\bf Hibernate}.
+\item Implemented website UI by {\bf HTML}/{\bf CSS} and solved dynamic web page by {\bf JSP}.
+\end{rSubsection}
+ %------------------------------------
+\begin{rSubsection}{Twitter Info Retrieval Engine}{09/2016 - 11/2016}{}{} 
+\item Crawled 5GB+ tweets streaming data by {\bf Java}, using Twitter Streaming API and Twitter4j library. 
+\item Indexed tweets separately by{\bf  Lucene} stop words analyzer and {\bf Hadoop} {\bf MapReduce}.
+\item Implemented search functions and website UI using {\bf JSP}/{\bf CSS} and deployed it on Tomcat.
+\end{rSubsection} 
+ %------------------------------------
+\begin{rSubsection}{Skewed Topology Sampling}{10/2016 - 12/2016}{}{} 
+\item Generated AS-level Internet topologies from 10GB+ raw data of Routing Information Base by {\bf Python}. 
+\item Evaluated 20k+ AS nodes’ value and computed properties of topologies by {\bf Python} and {\bf MATLAB}. 
+\item Accelerated complex properties computation with {\bf CUDA} toolkit on an NVIDIA {\bf GPU}.
+\end{rSubsection} 
+%------------------------------------------------
+\end{rSection} 
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{PUBLICATIONS} 
+%------------------------------------------------
+\begin{rSubsection}{Global Hopf Bifurcation on Two-Delays Leslie-Gower Predator-Prey System with a Prey Refuge}{} {} {} 
+\item In Computational and Mathematical Methods in Medicine, Volume 2014 (2014), Article ID 619132 
+\end{rSubsection}
+%------------------------------------------------
+\begin{rSubsection}{Chaos and Hopf Bifurcation Analysis of the Delayed Local Lengyel-Epstein System}{} {} {} 
+\item In
+Discrete Dynamics in Nature and Society, Volume 2014 (2014), Article ID 139375
+\end{rSubsection}
+%------------------------------------------------
+\end{rSection}
+%------------------------------------------------
+\end{document}
